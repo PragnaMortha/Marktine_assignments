@@ -16,5 +16,7 @@ if 1<=N<=1015:
             e=prime_number(i)
             if e:
                 prime_factor_list.append(i)
-
-print(max(prime_factor_list))
+    print(max(prime_factor_list))
+  else:
+    print("Input should be between 1 and 1015. Try Again")
+    
